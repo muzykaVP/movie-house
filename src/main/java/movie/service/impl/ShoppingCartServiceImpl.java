@@ -1,5 +1,6 @@
 package movie.service.impl;
 
+import java.util.Collections;
 import movie.dao.ShoppingCartDao;
 import movie.dao.TicketDao;
 import movie.model.MovieSession;
@@ -44,7 +45,7 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
 
     @Override
     public void clear(ShoppingCart shoppingCart) {
-        shoppingCart.setTickets(null);
+        shoppingCart.setTickets(Collections.emptyList());
         shoppingCartDao.update(shoppingCart);
     }
 }
