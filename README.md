@@ -1,6 +1,6 @@
 # 🎥MOVIE HOUSE🎥
 A RESTful cinema project, where you can search movies and their sessions, add movie tickets to a shopping cart and purchase them later as a user.
-As admin you can manage data records located in a remote database.
+As admin, you can manage data records located in a remote database.
 
 ## ✨Features✨
 * Register as a user
@@ -11,7 +11,7 @@ As admin you can manage data records located in a remote database.
   * Display your orders/shopping cart
   * Create new order
   * Update shopping cart
-* User rights:
+* Admin rights:
   * Display user by his email
   * Add new cinema hall/movie session/movie
   * Delete movie sessions
